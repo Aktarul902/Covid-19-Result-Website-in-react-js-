@@ -1,0 +1,145 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+    margin: 25px 4vw;
+}
+.li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav{
+    height: 90px ;
+    width: 100%;
+    background-color: #121212;
+}
+.under-line{
+    /* text-decoration: 3px underline red; */
+    color:rgb(187, 185, 185);
+ 
+}
+#search{
+    display: inline-block;
+    margin: 20px 45vw;
+    width: 21vw;
+    border: 2px solid black;
+    /* border-right: none; */
+    height: 31px;
+    position: relative;
+    top: 12px;
+    border-radius: 6px;
+}
+.logo{
+    display: inline-block;
+    margin: 0px 57vw;
+    position: relative;
+    top: -40px;
+    border: 2px solid black;
+    height: 17px;
+    width: 1vw;
+    padding: 6px 2vw;
+    border-radius: 6px;
+    left: 9vw;
+}
+.logo:hover{
+    transition: all .3s linear ease-in-out;
+    background-color: rgb(0, 252, 105);
+    cursor: pointer;
+}
+.loading{
+    height: 10px;
+    width: 100%;
+    background-color: #1F51FF;
+    animation: loading .6s ease-in-out 1 ;
+}
+@keyframes loading {
+    0%{
+        width: 0px;
+    }
+    70%{
+        width: 70vw;
+
+    }
+    100%{
+        width: 100%;
+    }
+}
+.hidden{
+    display: none;
+}
+.table-nav{
+    display: flex;
+    color: #121212;
+    position: relative;
+    left: 15vw;
+    font-size: 2vw;
+    background: #122;
+    width: 68vw;
+    /* transform: scale3d(1.5, 1.5, -17.5); */
+ 
+}
+.line{
+    border-right:2px solid #fff ;
+    border-right-width: 10px;
+}
+.tab{
+    background-color: rgb(187, 185, 185);
+    display: flex;
+    margin: 10px 27vw;
+    padding: 10px 12vw;
+    position: relative;
+    left: -12vw;
+    width: 44vw;
+    overflow: auto;
+    min-height: 10vh;
+    height: 11vh;
+}
+p{
+    padding: 10px 5vw;
+    position: relative;
+    font-size: 2vw;
+    left: -15vw;
+    /* background-color: white; */
+}
+.geen{
+
+
+}
+.red{
+
+}
+.red:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.green:hover{
+    background-color: lawngreen;
+    transition: all .3s linear  ease-in-out;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent, #122);
+    border-radius: 6px;
+}
